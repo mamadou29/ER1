@@ -36,10 +36,7 @@ void draw(){
   ellipse(75,100,25,30);
   ellipse(120,100,25,30);
   
-  //nose
-  stroke(0);
-  strokeWeight(0);
-  fill(0);
+  
   
   
   
