@@ -5,6 +5,6 @@ void setup(){ // nice commands are great sean
 void draw(){ //you cant handle this
 if(mousePressed){ // bruh
   background(random(255),random(201),random(1)); // my dude
-delay(1);
+delay(1000);
  }
 }

@@ -8,6 +8,14 @@ void draw(){
   ellipseMode(CENTER);
   rectMode(CENTER);
   
+  if(mousePressed){ 
+background(random(255),random(201),random(1)); 
+delay(1000);
+ }
+ 
+
+  
+  
   
   
   //body
@@ -32,11 +40,14 @@ void draw(){
   //eyes
   stroke(0);
   strokeWeight(0);
-  fill(0);
+  fill(random(255),random(201),random(1));
   ellipse(75,100,25,30);
   ellipse(120,100,25,30);
+ 
   
-  
+ 
+
+   
   
   
   
