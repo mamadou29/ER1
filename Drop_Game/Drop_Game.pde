@@ -35,7 +35,7 @@ void draw() {
       // Deal with raindrops
       // Initialize one drop
       // Increment totalDrops
-      totalDrops ++ ;
+      
       // If we hit the end of the array
       if (totalDrops < drops.length) {
         drops[totalDrops] = new Drop();
@@ -74,7 +74,13 @@ void draw() {
      totalDrops=0;
      timer.setTime(constrain(300-level*25,0,300));
   }
-
-    // Check the timer
-  }
+   
+textFont(f,14);
+fill(0);
+text("Lives left:" + lives, 10,20);
+rect(10,24,lives*10,10);
+  
+text("Level:" + level, 300,20);
+text("score:" + score, 300,40);
+}
 }
