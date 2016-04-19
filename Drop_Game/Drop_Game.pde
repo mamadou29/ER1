@@ -26,6 +26,12 @@ void draw() {
   background(255);
 
   if (gameOver) {
+   textFont(f,48);
+   textAlign(CENTER);
+   fill(255,0,0);
+   text("YOU LOST BRUH", width/2, height/2);
+  
+  
   } else {
 
     catcher.setLocation(mouseX, mouseY);
