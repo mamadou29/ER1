@@ -23,7 +23,7 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+  background(0);
 
   if (gameOver) {
    textFont(f,48);
@@ -82,7 +82,7 @@ void draw() {
   }
    
 textFont(f,14);
-fill(0);
+fill(255);
 text("Lives left:" + lives, 10,20);
 rect(10,24,lives*10,10);
   
